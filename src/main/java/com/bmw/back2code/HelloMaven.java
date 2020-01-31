@@ -7,7 +7,7 @@ import org.paukov.combinatorics.ICombinatoricsVector;
 public class HelloMaven {
 
 	public static void main(String[] args) {
-		String[] a = new String[] { "Hello", "Back2Coder", "says", "HelloMaven" };
+		String[] a = new String[] { "Hello", "Back2Coder", "says", "Hello AWS" };
 		for (ICombinatoricsVector<?> perm : permutations(a)) {
 			System.out.println(perm);
 		}
